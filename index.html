@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisor de Ingresos</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <h1>Escoge un de las siguientes fórmulas</h1>
+    <div>
+        <p>Indica cuánto ganas al mes</p>
+        <form action="">
+            <ul>
+                <li>
+                    <label for="money-income"></label>
+                    <input type="number" id="money-income" value="">
+                </li>
+                <li>
+                    <input type="button" id="button-result" value="Siguiente">
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="formulas-main-container">
+        <div>
+            <p>Gastos básicos: <span id="bmf-gb"></span>.</p>
+            <p>Gastos personales: <span id="bmf-gp"></span>.</p>
+            <p>Ahorro: <span id="bmf-ahorro"></span>.</p>
+        </div>
+        <div>
+            <p>Necesidades Básicas: <span id="hef-nb"></span>.</p>
+            <p>Inversión: <span id="hef-inversion"></span>.</p>
+            <p>Ahorro: <span id="hef-ahorro"></span>.</p>
+            <p>Formación: <span id="hef-formacion"></span>.</p>
+            <p>Donativos: <span id="hef-donativos"></span>.</p>
+            <p>Ocio: <span id="hef-ocio"></span>.</p>
+        </div>
+        <div>
+            <p>Vivienda: <span id="drf-vivienda"></span>.</p>
+            <p>Donativos: <span id="drf-donativos"></span>.</p>
+            <p>Ahorro: <span id="drf-ahorro"></span>.</p>
+            <p>Servicios: <span id="drf-servicios"></span>.</p>
+            <p>Transporte: <span id="drf-transporte"></span>.</p>
+            <p>Comida: <span id="drf-comida"></span>.</p>
+            <p>Ropa: <span id="drf-ropa"></span>.</p>
+            <p>Médicos y salud: <span id="drf-salud"></span>.</p>
+            <p>Cuidado Personal: <span id="drf-personal"></span>.</p>
+            <p>Recreación: <span id="drf-recreacion"></span>.</p>
+            <p>Deuda o inversión: <span id="drf-deuda-inversion"></span>.</p>
+        </div>
+    </div>
+    <script src="./JS/formula.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>

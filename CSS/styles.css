@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.formulas-main-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
