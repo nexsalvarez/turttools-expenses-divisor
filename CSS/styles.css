@@ -30,6 +30,9 @@ header .header-logo-container {
     justify-content: start;
     padding-left: 80px;
 }
+.header-logo-container .header-logo {
+    width: 180px;
+}
 header .header-icons-container {
     display: flex;
     justify-content: end;
@@ -37,6 +40,15 @@ header .header-icons-container {
 }
 .header--nav li {
     display: inline;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.header--nav li img {
+    width: 32px;
+    height: 32px;
+}
+.header--nav li img:hover {
+    opacity: 0.8;
 }
 
 /*Estilos Software Section*/
