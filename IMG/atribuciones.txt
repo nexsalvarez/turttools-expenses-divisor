@@ -1,0 +1,10 @@
+icon-instagram: <a href="https://www.flaticon.es/iconos-gratis/instagram" title="instagram iconos">Instagram iconos creados por Freepik - Flaticon</a>
+icon-facebook: <a href="https://www.flaticon.es/iconos-gratis/facebook" title="facebook iconos">Facebook iconos creados por Freepik - Flaticon</a>
+icon-twitter: <a href="https://www.flaticon.es/iconos-gratis/logotipo-de-twitter" title="logotipo de twitter iconos">Logotipo de twitter iconos creados por Md Tanvirul Haque - Flaticon</a>
+icon-linkedin: <a href="https://www.flaticon.es/iconos-gratis/linkedin" title="linkedin iconos">Linkedin iconos creados por Md Tanvirul Haque - Flaticon</a>
+icon-github: <a href="https://www.flaticon.es/iconos-gratis/github" title="github iconos">Github iconos creados por Pixel perfect - Flaticon</a>
+tortuga-flash: <a href="https://www.flaticon.es/iconos-gratis/tortuga" title="tortuga iconos">Tortuga iconos creados por Freepik - Flaticon</a>
+tortuga-flash-02: <a href="https://www.flaticon.es/iconos-gratis/tortuga" title="tortuga iconos">Tortuga iconos creados por Whitevector - Flaticon</a>
+icon-cohete: <a href="https://www.flaticon.es/iconos-gratis/cohete" title="cohete iconos">Cohete iconos creados por Freepik - Flaticon</a>
+icon-escalera: <a href="https://www.flaticon.es/iconos-gratis/escalera" title="escalera iconos">Escalera iconos creados por Rahul Kaklotar - Flaticon</a>
+icon-campeon: <a href="https://www.flaticon.es/iconos-gratis/campeon" title="campeón iconos">Campeón iconos creados por Freepik - Flaticon</a>
