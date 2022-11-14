@@ -8,3 +8,5 @@ tortuga-flash-02: <a href="https://www.flaticon.es/iconos-gratis/tortuga" title=
 icon-cohete: <a href="https://www.flaticon.es/iconos-gratis/cohete" title="cohete iconos">Cohete iconos creados por Freepik - Flaticon</a>
 icon-escalera: <a href="https://www.flaticon.es/iconos-gratis/escalera" title="escalera iconos">Escalera iconos creados por Rahul Kaklotar - Flaticon</a>
 icon-campeon: <a href="https://www.flaticon.es/iconos-gratis/campeon" title="campeón iconos">Campeón iconos creados por Freepik - Flaticon</a>
+icon-star-one: <a href="https://www.flaticon.es/iconos-gratis/estrella" title="estrella iconos">Estrella iconos creados por Smashicons - Flaticon</a>
+icon-star-three: <a href="https://www.flaticon.es/iconos-gratis/clasificacion" title="clasificación iconos">Clasificación iconos creados por Smashicons - Flaticon</a>

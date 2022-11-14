@@ -5,6 +5,7 @@
     --purple: #090979;
     --purple-less: rgba(9,9,121,0.8);
     --dark-purple: #191929;
+    --dark-purple-less: rgba(25, 25, 41, 0.8);
     --cyan: #00d4ff;
     --dark-blue: #171D2E;
 }
@@ -141,7 +142,7 @@ h1 {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.4rem;
-    color: var(--black);
+    color: var(--dark-purple-less);
     margin-bottom: 24px;
 }
 .formulas-content-container .welcome--button-container {
@@ -163,18 +164,81 @@ h1 {
     cursor: pointer;
     background-color: var(--dark-purple);
 }
-
-.formulas--types figure {
-    width: 64px;
-    height: 64px;
+.formulas-selection-container {
+    width: auto;
+    height: auto;
+    display: grid;
+    align-items: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    backdrop-filter: blur(6.8px);
+        -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(255, 255, 255, 0.12); 
+}
+.formulas-selection-container .formulas-selection--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulas-selection--content picture {
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+}
+.formulas-selection--content picture img {
+    width: 100px;
+    height: 100px;
+}
+.formulas-selection-container .formulas-selection--types {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    margin-top: 20px;
+}
+.formulas-selection-container .formulas-selection--types .formulas--types {
+    width: auto;
+    height: auto;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    padding: 16px;
+}
+.formulas-selection-container .formulas-selection--types .formulas--types:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.8);
+}
+.formulas-selection--types .formulas--types figure {
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--dark-purple);
-    border-radius: 20px;
+    border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    margin-bottom: 32px;
 }
-.formulas--types figure img {
-    width: 32px;
-    height: 32px;
+.formulas-selection--types .formulas--types figure img {
+    width: 24px;
+    height: 24px;
+}
+.formulas-selection--types .formulas--types .formulas--types-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: var(--dark-purple);
+    margin-bottom: 8px;
+}
+.formulas-selection-container .formulas--types .formulas--types-p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: var(--dark-purple-less);
 }
