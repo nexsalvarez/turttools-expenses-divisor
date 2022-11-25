@@ -270,3 +270,84 @@ h1 {
     width: 100px;
     height: 100px;
 }
+.formulas-question-container .formulas-question--form {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+.formulas-question-container .formulas-question--form .formulas-question--p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: var(--dark-purple-less);
+    margin-bottom: 20px;
+}
+.formulas-question-container .formulas-question--form ul {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.formulas-question-container .formulas-question--form li {
+    list-style: none;
+    height: auto;
+}
+.formulas-question-container .formulas-question--form .formulas-form--01 {
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    padding-left: 16px;
+}
+.formulas-question-container .formulas-question--form .formulas-form--01 div {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.formulas-question--form .formulas-form--01 .formulas-form--p {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--dark-purple-less);
+}
+.formulas-question-container .formulas-question--form .formulas-form--02 {
+    width: 72%;
+}
+.formulas-question-container .formulas-question--form .formulas-form--money {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--dark-purple-less);
+    padding-top: 1px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+      input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+      }
+.formulas-question-container .formulas-question--form .formulas-form--button {
+    width: 100%;
+    height: auto;
+    background-color: var(--purple-less);
+    border: none;
+    border-radius: 8px;
+    padding: 8px 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--white);
+}
+.formulas-question-container .formulas-question--form .formulas-form--button:hover {
+    cursor: pointer;
+    background-color: var(--dark-purple);
+}
