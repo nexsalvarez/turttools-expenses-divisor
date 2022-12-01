@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
-    <title>Divisor de Ingresos</title>
+    <title>Divisor de Gastos</title>
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
@@ -33,7 +33,7 @@
                 <h1>Divide tus gastos y ordena tus finanzas</h1>
                 <p class="software--title inactive" id="main-subtittle-one">Selecciona un método para el cálculo</p>
                 <p class="software--title inactive" id="main-subtittle-two">Coloca el total de tus ingresos mensuales</p>
-                <!-- <p class="software--title">¡Ya hiciste tu primer cálculo financiero!</p> -->
+                <p class="software--title inactive" id="main-subtittle-three">Aplica el resultado en tus finanzas</p>
             </div>
             <div class="formulas-main-container">
                 <div class="formulas-welcome-container">
@@ -104,33 +104,47 @@
                         </form>
                     </div>
                 </div>
+                <div class="inactive" id="software-04">
+                    <picture>
+                        <img class="formulas--flash" src="./IMG/images/tortuga-flash-02.png" alt="Flash dando el resultado">
+                    </picture>
+                    <div class="formulas-result--content">
+                        <h3 class="formulas--title">Este es el resultado que mi caparazón arroja para que planifiques tus gastos mensuales</h3>
+                        <p class="formulas-result--p">Guarda estos números con su respectiva área de gasto, te servirán para ordenar tus finanzas personales y decirle a tu dinero adónde tiene que ir ¡Anímate a probar con las otras fórmulas!</p>
+                        <div class="formulas-result--types">
+                            <div class="inactive" id="formula-result-01">
+                                <p>Gastos básicos: $ <span id="bmf-gb"></span></p>
+                                <p>Gastos personales: $ <span id="bmf-gp"></span></p>
+                                <p>Ahorro: $ <span id="bmf-ahorro"></span></p>
+                            </div>
+                            <div class="inactive" id="formula-result-02">
+                                <p>Necesidades Básicas: $ <span id="hef-nb"></span></p>
+                                <p>Inversión: $ <span id="hef-inversion"></span></p>
+                                <p>Ahorro: $ <span id="hef-ahorro"></span></p>
+                                <p>Formación: $ <span id="hef-formacion"></span></p>
+                                <p>Donativos: $ <span id="hef-donativos"></span></p>
+                                <p>Ocio: $ <span id="hef-ocio"></span></p>
+                            </div>
+                            <div class="inactive" id="formula-result-03">
+                                <p class="formula-result--area">Vivienda: $ <span id="drf-vivienda"></span></p>
+                                <p>Donativos: $ <span id="drf-donativos"></span></p>
+                                <p>Ahorro: $ <span id="drf-ahorro"></span></p>
+                                <p>Servicios: $ <span id="drf-servicios"></span></p>
+                                <p>Transporte: $ <span id="drf-transporte"></span></p>
+                                <p>Comida: $ <span id="drf-comida"></span></p>
+                                <p>Ropa: $ <span id="drf-ropa"></span></p>
+                                <p>Médicos y salud: $ <span id="drf-salud"></span></p>
+                                <p>Cuidado Personal: $ <span id="drf-personal"></span></p>
+                                <p>Recreación: $ <span id="drf-recreacion"></span></p>
+                                <p>Deuda o inversión: $ <span id="drf-deuda-inversion"></span></p>
+                            </div>
+                        </div>
+                        <div class="result--button-container">
+                            <button class="restart--button" id="restart-button">Prueba con otro método</button>
+                        </div>
+                    </div>
+                </div>
             </div>                    
-                    <!-- <div>
-                        <p>Gastos básicos: $ <span id="bmf-gb"></span></p>
-                        <p>Gastos personales: $ <span id="bmf-gp"></span></p>
-                        <p>Ahorro: $ <span id="bmf-ahorro"></span></p>
-                    </div>
-                    <div>
-                        <p>Necesidades Básicas: <span id="hef-nb"></span>.</p>
-                        <p>Inversión: <span id="hef-inversion"></span>.</p>
-                        <p>Ahorro: <span id="hef-ahorro"></span>.</p>
-                        <p>Formación: <span id="hef-formacion"></span>.</p>
-                        <p>Donativos: <span id="hef-donativos"></span>.</p>
-                        <p>Ocio: <span id="hef-ocio"></span>.</p>
-                    </div>
-                    <div>
-                        <p>Vivienda: <span id="drf-vivienda"></span>.</p>
-                        <p>Donativos: <span id="drf-donativos"></span>.</p>
-                        <p>Ahorro: <span id="drf-ahorro"></span>.</p>
-                        <p>Servicios: <span id="drf-servicios"></span>.</p>
-                        <p>Transporte: <span id="drf-transporte"></span>.</p>
-                        <p>Comida: <span id="drf-comida"></span>.</p>
-                        <p>Ropa: <span id="drf-ropa"></span>.</p>
-                        <p>Médicos y salud: <span id="drf-salud"></span>.</p>
-                        <p>Cuidado Personal: <span id="drf-personal"></span>.</p>
-                        <p>Recreación: <span id="drf-recreacion"></span>.</p>
-                        <p>Deuda o inversión: <span id="drf-deuda-inversion"></span>.</p>
-                    </div> -->
         </section>
     </main>
     <footer>

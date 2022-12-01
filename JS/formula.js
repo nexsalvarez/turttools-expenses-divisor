@@ -19,7 +19,6 @@ const drfPersonal = document.querySelector('#drf-personal');
 const drfRecreacion = document.querySelector('#drf-recreacion');
 const drfDeudaInversion = document.querySelector('#drf-deuda-inversion');
 const userNum = document.querySelector('#money-income');
-const buttonResult = document.querySelector('#button-result');
 
 const divisors = [
     50,
