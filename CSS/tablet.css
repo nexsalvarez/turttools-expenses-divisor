@@ -1,0 +1,32 @@
+header .header-logo-container {
+    padding-left: 40px;
+}
+header .header-icons-container {
+    padding-right: 40px;
+}
+.main-software-container {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 120px 40px;
+}
+.formulas-main-container .formulas-welcome-container,
+.formulas-main-container .formulas-result-container {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.formulas-welcome-container picture,
+.formulas-result-container picture {
+    grid-column: auto;
+}
+.formulas-welcome-container .formulas-content-container,
+.formulas-result-container .formulas-result--content {
+    grid-column: auto;
+}
+.formulas-selection-container {
+    max-height: none;
+}
+.formulas-selection-container .formulas-selection--types {
+    max-height: none;
+    overflow-y: auto;
+}

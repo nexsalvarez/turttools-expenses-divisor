@@ -1,0 +1,15 @@
+.header--nav ul {
+    display: none;
+}
+.main-software-container {
+    gap: 60px;
+}
+h1,
+.software--title {
+    font-size: 4.8rem;
+    line-height: 6rem;
+}
+.formulas-result-container .formulas-result--content .formulas-result--types {
+    max-height: none;
+    overflow-y: auto;
+}

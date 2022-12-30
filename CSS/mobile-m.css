@@ -1,0 +1,22 @@
+header .header-logo-container {
+    padding-left: 16px;
+}
+.main-software-container {
+    padding: 120px 16px;
+}
+.formulas-selection-container .formulas-selection--content,
+.formulas-question-container .formulas-question--content {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.formulas-question-container .formulas-question--form ul {
+    flex-direction: column;
+    justify-content: baseline;
+}
+.formulas-question-container .formulas-question--form .formulas-form--01 {
+    width: 100%;
+    height: 32px;
+}
+.formulas-question-container .formulas-question--form .formulas-form--02 {
+    width: 100%;
+}
