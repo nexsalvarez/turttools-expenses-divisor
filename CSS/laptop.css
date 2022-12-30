@@ -1,0 +1,37 @@
+h1,
+.software--title {
+    font-size: 7.4rem;
+    line-height: 8.6rem;
+}
+.formulas-welcome-container,
+.formulas-selection-container,
+.formulas-question-container,
+.formulas-result-container {
+    padding: 28px;
+}
+.formulas-selection-container {
+    max-height: 500px;
+}
+.formulas-welcome-container picture .formulas--flash,
+.formulas-result-container picture img {
+    width: 90px;
+    height: 90px;
+}
+.formulas-selection-container .formulas-selection--types {
+    max-height: 280px;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    overflow-y: scroll;
+}
+.formulas-selection-container .formulas-selection--types::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+.formulas-selection-container .formulas-selection--types::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+    border: 3px solid transparent;
+}
+.formulas-selection--types .formulas--types figure {
+    margin-bottom: 16px;
+}

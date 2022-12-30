@@ -55,6 +55,12 @@ function selectedFormula(formula) {
         methodSelected = 3;
     }
 }
+userNum.addEventListener('keydown', (e) => {
+    if (e.key == "Enter" ||e.which == 13) {
+        e.preventDefault();
+        return false;
+    }
+})
 
 buttonResult.addEventListener('click', () => {
     if (Number(userNum.value) > 0) {
@@ -87,4 +93,4 @@ restartButton.addEventListener('click', () => {
     divResultBestMoney.classList.add('inactive');
     divResultHarvEker.classList.add('inactive');
     divResultDaveRamsey.classList.add('inactive');
-});
+    });
